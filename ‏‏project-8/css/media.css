@@ -1,0 +1,207 @@
+@media (max-width: 375px){
+    main header .contaniner1 .search-log,
+    main header .contaniner1 ul {
+        display: none;
+    }
+    main header .contaniner1  {
+        display: block;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .conteinar {
+        display: flex;
+        flex-direction: column;
+    }
+    .one .text h3 {
+        font-size: 25px;
+        width: 250px;
+        transform: translateX(-40px);
+        -webkit-transform: translateX(-40px);
+        -moz-transform: translateX(-40px);
+        -ms-transform: translateX(-40px);
+        -o-transform: translateX(-40px);
+    }
+    .one .text p {
+        font-size: 13px;
+        width: 300px;
+        transform: translateX(-12px);
+        -webkit-transform: translateX(-12px);
+        -moz-transform: translateX(-12px);
+        -ms-transform: translateX(-12px);
+        -o-transform: translateX(-12px);
+    }
+    .one .text {
+        display: flex;
+        align-items: center; 
+        width: 100%;
+    }
+    .one .text .explore {
+        display: flex;
+        flex-direction: column;
+    }
+    .one .text .explore .parg11 {
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        width: 150px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+}
+    .one .text .explore .parg11 p:first-child::after {
+        content: "2.5k+";
+        position: absolute;
+        top: -65%;
+        right: 30%;
+        color: var(--mainColor1); 
+    }   
+    .one .text .explore .parg11 p:last-child:after {
+        content: "2.5k+";
+        position: absolute;
+        top: -65%;
+        right: 30%;
+        color: var(--mainColor1);
+    }
+    .one .text .explore .Explore-now {
+        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+        -moz-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+    }
+    .one {
+        height: calc(170vh - 65px);
+    }
+    .one .photo2 {
+        height: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     .photo .m {
+        transform: translate(-70px, -395px);
+        -webkit-transform: translate(-70px, -395px);
+        -moz-transform: translate(-70px, -395px);
+        -ms-transform: translate(-70px, -395px);
+        -o-transform: translate(-70px, -395px);
+    }
+    .two .conteinar2 .cards {
+        display: flex;
+        flex-direction: column;
+        height: 680px;
+    }
+    .two .conteinar2 .rectangular-text1 {
+        display: flex;
+        flex-direction: column;
+        height: 620px;
+    }
+    .two .conteinar2 .Square-rectangular {
+        width: 90%;
+    }
+    .two .conteinar2 .text1 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .two .conteinar2 .grid p {
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .two .conteinar2 .grid p:nth-child(2):before {
+        top: 45%;
+        left: 60%;
+        width: 7px;
+        height: 7px;
+    }
+    .two .conteinar2 .grid p:nth-child(1):before {
+        top: 45%;
+        left: 82%;
+        width: 7px;
+        height: 7px;
+    }
+    .two .conteinar2 .grid p:nth-child(3):before {
+        top: 45%;
+        left: 42%;
+        width: 7px;
+        height: 7px;
+    }
+    .two .conteinar2 .grid p:nth-child(4):before {
+        top: 42%;
+        left: 21%;
+        width: 7px;
+        height: 7px;
+    }
+    .two .conteinar2 .grid p:nth-child(5):before {
+        top: 45%;
+        left: 0%;
+        width: 7px;
+        height: 7px;
+    }
+    .three .conteinar3 .animlas {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: center;
+        text-align: center;
+    }
+    .three .conteinar3 .cards2 {
+        display: grid;;
+        grid-template-rows: auto;
+        grid-template-areas: "one" "two" "three" "one2" "two2" "three3";
+        justify-content: space-evenly;
+        align-content: center;
+        row-gap: 50px;
+        column-gap: 10px;
+        height: 1400px;
+    }
+    .three .conteinar3 .card3 .lastCrad {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 500px;
+    }
+    .three .conteinar3 .card3 .lastCrad ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .three .conteinar3 .card3 .lastCrad ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        font-size: 13px;
+        text-align: center;
+        row-gap: 5px;
+    }
+    .three .conteinar3 .seeMore {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: var(--mainColor1);
+        transform: translateY(55px);
+        -webkit-transform: translateY(55px);
+        -moz-transform: translateY(55px);
+        -ms-transform: translateY(55px);
+        -o-transform: translateY(55px);
+        cursor: pointer;
+        height: 200px;
+    }
+    .three .conteinar3 .card3 .smallcard {
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translate(50px ,180px);
+        -webkit-transform: translate(50px ,180px);
+        -moz-transform: translate(50px ,180px);
+        -ms-transform: translate(50px ,180px);
+        -o-transform: translate(50px ,180px);
+        padding-left: 15px;
+        padding-right: 15px;
+}
+} 
